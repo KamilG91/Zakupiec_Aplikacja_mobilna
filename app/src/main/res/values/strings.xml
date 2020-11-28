@@ -1,0 +1,20 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+        <!--Opisy Przyciskow -->
+    <string name="zakupy_start">Zacznij zakupy</string>
+    <string name="stworz_liste">Stwórz listę</string>
+    <string name="listy_zakupow">Listy zakupów</string>
+    <!--Tooltips -->
+    <string name = "tooltip_zakupy_start">Zacznij kupować produkty!</string>
+    <string name = "tooltip_stworz_liste">Stwórz nową listę!</string>
+    <string name = "tooltip_listy_zakupow">Wyświetl swoje listy!</string>
+    <!--Inne -->
+    <string name="tworcy_rok_powstania">Kamil Gawot 2020</string>
+    <string name="app_name">ZAKUPIEC</string>
+</resources>
