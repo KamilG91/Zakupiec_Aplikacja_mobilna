@@ -1,20 +1,44 @@
 <resources>
+    <string name="app_name">Zakupiec</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
-        <!--Opisy Przyciskow -->
-    <string name="zakupy_start">Zacznij zakupy</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_start_shopping">Start Shopping</string>
+    <string name="menu_createShoppingList">Create Shopping List</string>
+    <string name="menu_openShoppingList">Open Shopping Lists</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="zakupy_start">Shopping Start</string>
     <string name="stworz_liste">Stwórz listę</string>
     <string name="listy_zakupow">Listy zakupów</string>
-    <!--Tooltips -->
-    <string name = "tooltip_zakupy_start">Zacznij kupować produkty!</string>
-    <string name = "tooltip_stworz_liste">Stwórz nową listę!</string>
-    <string name = "tooltip_listy_zakupow">Wyświetl swoje listy!</string>
-    <!--Inne -->
+    <string name="tooltip_zakupy_start">Start shopping!</string>
+    <string name="tooltip_stworz_liste">Create new list!</string>
+    <string name="tooltip_listy_zakupow">Display your lists!</string>
     <string name="tworcy_rok_powstania">Kamil Gawot 2020</string>
-    <string name="app_name">ZAKUPIEC</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="new_product_done">DONE</string>
+    <string name="start_shopping_remove_list">Start shopping or remove list?</string>
+    <string name="create_new_product">Add Product</string>
+    <string name="new_product_name_hint">Product Name</string>
+    <string name="new_product_quantity">Quantity</string>
+    <string name="product_name">Name: </string>
+    <string name="product_quantity">Quantity </string>
+    <string name="remove_list">REMOVE </string>
+    <string name="start_shopping">START SHOPPING </string>
+    <string name="product_unit">Unit </string>
+    <string name="new_shopping_list_title">New Shopping list</string>
+    <string name="new_shopping_list_name">Shopping list name</string>
+    <string name="new_products_description">Products description</string>
+    <string name="new_product_validate_name">Please specify a name</string>
+    <string name="new_product_validate_desc">Please specify a description</string>
+    <string name="new_product_validate_amount">Please specify a amount higher than 0</string>
+    <string name="choose_shopping_list">Choose shopping list</string>
+    <string name="shopping_list_row_name">Shooping list name</string>
+    <string name="shopping_list_row_date">Shopping list date</string>
 </resources>

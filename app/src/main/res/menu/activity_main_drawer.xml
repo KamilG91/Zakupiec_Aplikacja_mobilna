@@ -5,16 +5,8 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_zakupy_start"
-            android:icon="@drawable/ic_add_shopping_cart_24px"
-            android:title="@string/zakupy_start" />
-        <item
-            android:id="@+id/nav_stworz_liste"
-            android:icon="@drawable/ic_addchart_24px"
-            android:title="@string/stworz_liste" />
-        <item
-            android:id="@+id/nav_listy_zakupów"
-            android:icon="@drawable/ic_pending_actions_24px"
-            android:title="@string/listy_zakupow" />
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_article_24px"
+            android:title="@string/menu_home" />
     </group>
 </menu>
