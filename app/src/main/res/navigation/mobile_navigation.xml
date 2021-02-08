@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_section_layout" />
+    <fragment
+        android:id="@+id/nav_zakupy_start"
+        android:name="com.example.myapplication.ui.productsList.myProductsFragment"
+        android:label="@string/zakupy_start"
+        tools:layout="@layout/products_in_shopping_list_layout" >
+    <argument
+        android:name="currentListID"
+        app:argType="integer"
+        android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_stworz_liste"
+        android:name="com.example.myapplication.ui.productsList.myProductsInShoppingListFragment"
+        android:label="@string/stworz_liste"
+        tools:layout="@layout/new_products_in_shopping_list_creation" >
+        <argument
+            android:name="currentListID"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+-->
+    <fragment
+        android:id="@+id/nav_listy_zakupów"
+        android:name="com.example.myapplication.ui.myShoppingLists.myShoppingListsFragment"
+        android:label="@string/listy_zakupow"
+        tools:layout="@layout/my_shopping_lists_section_layout" />
+</navigation>
